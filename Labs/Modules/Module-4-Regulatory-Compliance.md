@@ -79,4 +79,4 @@ Navigate to Azure Policy blade. You can also select this [link](https://portal.a
 22.	Follow the **on-screen instructions to assign it on the desired scope**. If you decided to include parameters in your initiative, now you should be able to fulfill them. Click **Review + create** to start the validation process and then **Create**.
 23.	Now your new security benchmark is displayed in regulatory compliance along with the built-in regulatory standards.
 
-### Continue with the next lab: [Module 5 - Improving your Secure Posture](../Modules/Module-5-Improving-your-Secure-Posture.md)
+[//]: ### Continue with the next lab: [Module 5 - Improving your Secure Posture](../Modules/Module-5-Improving-your-Secure-Posture.md)
