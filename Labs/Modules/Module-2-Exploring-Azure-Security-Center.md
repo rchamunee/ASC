@@ -10,7 +10,7 @@ Create a new Microsoft Account enable with Azure Trial Subscription
 This section is intended to deploy Azure resources in an automated way to get you started quickly or in case you need to re-provision your environment.
 
 #### Prerequisites
-To get started with Security Center, you must have a subscription to Microsoft Azure. If you do not have a subscription, you can sign up for a free account. Click here.
+To get started with Security Center, you must have a subscription to Microsoft Azure. If you do not have a subscription, you can sign up for a free account.
 
 ### Exercise 1: Understanding Azure Security Center dashboard
 
@@ -133,16 +133,14 @@ Exploring secure score
 }
 ```
 
-9.	On the bottom part, **select a resource** (the single storage account on the unhealthy tab) and **click Remediate**.
+9.	On the bottom part, **select a resource** (the single storage account on the unhealthy tab) and **click Fix**.
 
-10. On the right pane, review the implications for this remediation and press **Remediate 1 resource**.
+10. On the right pane, review the implications for this remediation and press **Fix 1 resource**.
 
 ![Remediate a resource](../Images/asc-storage-remediate-resource.gif?raw=true)
 
 11. Wait for a notification: ✅ **Remediation successful** - Successfully remediated the issues on the selected 
 resources. Note: It can take several minutes after remediation completes to see the resources in the 'healthy resources' tab.
-
-12.	Return to recommendations list. Expend the "Manage access and permissions" security control, you can now see recommendations flagged as `Preview`. Those aren’t included in the calculation of your score. They should be still remediated, so that when the preview period ends, they will contribute towards your score.
 
 ### Exercise 3: Exploring the Inventory capability
 
@@ -176,10 +174,9 @@ Asset inventory dashboard allows you to get a single pane of glass view to all y
 
 ![Inventory: Assign tags](../Images/asc-inventory-assign-tags.gif?raw=true)
 
-13.	Notice the **Security findings** filter – it allows you to find all resources that are vulnerable by a specific vulnerability. You can also search for CVE, KB ID, name and missing update.
-14.	From the filter pane, select **Azure Defender** and value **On**. On the **Resource Group** select **asclab**. From the top menu bar, click on **Download CSV report**. You will get a snapshot to work on it offline already filtered. You can also right click on any of the resource and upgrade to Azure Defender plan (when applicable).
-15.	From the top menu, click on **view in resource graph explorer**. On the resource graph explorer blade, click on **Run Query**. You should now have the same list of resources and columns like in the previous step. This query can be editable for your needs and here it gets very powerful.
-16.	Save the query for later use by clicking on **Save as** from the top menu. You can use it to create periodic reports. Name the report as *asc-filtered-query* and select **save**.
+13.	From the filter pane, select **Azure Defender** and value **On**. On the **Resource Group** select **asclab**. From the top menu bar, click on **Download CSV report**. You will get a snapshot to work on it offline already filtered. You can also right click on any of the resource and upgrade to Azure Defender plan (when applicable).
+13.	From the top menu, click on **view in resource graph explorer**. On the resource graph explorer blade, click on **Run Query**. You should now have the same list of resources and columns like in the previous step. This query can be editable for your needs and here it gets very powerful.
+15.	Save the query for later use by clicking on **Save as** from the top menu. You can use it to create periodic reports. Name the report as *asc-filtered-query* and select **save**.
 
 > ⭐ Good to know: <br>
 > Inventory dashboard is fully built on top of Azure Resource Graph (ARG) which stores all of ASC security posture data and leveraging its powerful KQL engine.
