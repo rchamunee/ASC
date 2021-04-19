@@ -15,7 +15,7 @@ Skill | Level | Description
 ----- | ----- | -----------
 Beginner | 100 | You're starting out and want to learn the fundamentals of Azure Security Center
 Intermediate | 200 | You have some experience with the product but want to learn more in-depth
-Advanced | 300+ | You have lots of experience and are looking to learn about advanced capabilities
+
 
 ## Last release notes
 
@@ -44,7 +44,7 @@ Advanced | 300+ | You have lots of experience and are looking to learn about adv
 - [Understanding Regulatory Compliance dashboard](./Modules/Module-4-Regulatory-Compliance.md#exercise-1-understanding-regulatory-compliance-dashboard)
 - [Adding new standards](./Modules/Module-4-Regulatory-Compliance.md#exercise-2-adding-new-standards)
 - [Creating your own benchmark](./Modules/Module-4-Regulatory-Compliance.md#exercise-3-creating-your-own-benchmark)
- 
+<!--
 [**Module 5 – Improving your Secure Posture (L300)**](./Modules/Module-5-Improving-your-Secure-Posture.md)
 - [Vulnerability assessment for VMs](./Modules/Module-5-Improving-your-Secure-Posture.md#exercise-1-vulnerability-assessment-for-vms)
 - [Vulnerability assessment for Containers](./Modules/Module-5-Improving-your-Secure-Posture.md#exercise-2-vulnerability-assessment-for-containers)
@@ -64,7 +64,7 @@ Advanced | 300+ | You have lots of experience and are looking to learn about adv
 - [Using JIT to reduce attack surface](./Modules/Module-8-Advance-Cloud-Defense.md#exercise-1-using-jit-to-reduce-attack-surface)
 - [Adaptive Application Control](./Modules/Module-8-Advance-Cloud-Defense.md#exercise-2-adaptive-application-control)
 - [File Integrity Monitoring](./Modules/Module-8-Advance-Cloud-Defense.md#exercise-3-file-integrity-monitoring)
-
+ -->
 ## Acronyms
 
 Acronym | Meaning | Description
