@@ -74,7 +74,7 @@ Continue with the exercise below until the deployment has completed.
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Security-Center%2Fmaster%2FLabs%2FFiles%2Flabdeploy.json" target="_blank"><img src="https://aka.ms/deploytoazurebutton"/></a>
 
 2.	You will be redirected to Azure Portal > custom deployment page where you should specify mandatory fields for deployment.
-3.	On the subscription field, select **Azure subscription 1**.
+3.	On the subscription field, select **Azure subscription 1 or your applicable subscription**.
 4.	On the resource group field, click on **Create new** and name it as **asclab** (you can pick any name you want or keep the default).
 5.	On the parameters section, select the closest data center **region** to your current location (all downstream resources will be created in the same region as the resource group).
 6. Select a password that will be used across services (such as credentials for virtual machines and SQL database)
@@ -117,7 +117,7 @@ When the deployment is complete, you should see the following:
 
 3. Go back to the **Pricing & Setting** and drill down into your **Azure subscription** (Azure subscription 1).
 4. Navigate to **Data Collection**
-5. On the **Auto provisioning - Extensions** page, set **Log Analytics agent for Azure VMs** to **On** (if it's not already set to On)
+5. On the **Auto provisioning - Extensions** page, set **Log Analytics agent for Azure VMs** to **On** (if it's not already set to On). If the screen show no Auto provisioning option, skip to 8.
 6. Click **Edit configuration**.
 7. On the workspace configuration section, use the **Connect Azure VMs to a different workspace** option to select your workspace **asc-lab-xxx** (which has been created by the ARM template).
 8. Under **Store additional raw data - Windows security events** section, select **All Events** option.
